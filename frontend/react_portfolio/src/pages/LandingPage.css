@@ -1,0 +1,14 @@
+@keyframes cursor {
+    from {
+      width: 0;
+    }
+    to {
+      width: auto;
+    }
+  }
+  
+  .cursor-animation::after {
+    content: '|';
+    display: inline-block;
+    animation: cursor 0.8s infinite;
+  }
