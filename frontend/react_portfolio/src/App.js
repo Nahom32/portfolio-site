@@ -4,10 +4,10 @@ import {
   BrowserRouter as Router,
   useLocation,
 } from "react-router-dom";
-import withRouter from "../hooks/withRouter";
+import withRouter from "./hooks/withRouter";
 import AppRoutes from "./routes";
-import Headermain from "../header";
-import AnimatedCursor  from "../hooks/AnimatedCursor";
+import Headermain from "./components/header";
+import AnimatedCursor  from "./hooks/AnimatedCursor";
 import "./App.css";
 
 function _ScrollToTop(props) {
