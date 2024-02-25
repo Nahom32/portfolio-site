@@ -8,7 +8,7 @@ import {
   FaYoutube,
   FaTwitch,
 } from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+import { socialprofils } from "../../content/display_content";
 
 export const Socialicons = (params) => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata, meta } from "../../content/display_content";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
