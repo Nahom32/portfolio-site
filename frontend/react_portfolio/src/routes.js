@@ -1,6 +1,7 @@
+// routes.js
 import React from "react";
-import { Route, Routes} from "react-router-dom";
-import withRouter from "./hooks/withRouter"
+import { Route, Routes } from "react-router-dom";
+import withRouter from "./hooks/withRouter"; // Assuming this is a custom withRouter implementation
 import { Home } from "./pages/home";
 import { Portfolio } from "./pages/portfolio";
 import { ContactUs } from "./pages/contacts";
