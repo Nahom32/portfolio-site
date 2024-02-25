@@ -67,20 +67,30 @@ const services = [{
         title: "Web Scraping and Scripting",
         description: "I can build scrapers and web crawlers to automate business tasks",
     },
+    {
+        title: "AI model Development",
+        description: "I can build AI models that can be used to enhance user experience"
+    }
 ];
 
 const dataportfolio = [{
         img: "https://www.pngwing.com/en/free-png-yncpo",
         description: "This is a torrent application that is built with the go language",
-        link: "#",
+        link: "https://github.com/Nahom32/Torrent-Assignment",
     },
+    {
+        img: "",
+        description: "This is an event sharing platform among event hosts and people who go to events",
+        link: "https://github.com/Nahom32/Event-notifier-and-lesiure-guide"
+    }
+
     
 ];
 
 const contactConfig = {
     YOUR_EMAIL: "senaynahom00@gmail.com",
     YOUR_FONE: "+251940127848",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "I'm available any time you want",
     
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
@@ -90,7 +100,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/Nahom32",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/nahom-senay-54ab68255/",
     twitter: "https://twitter.com",
 };
 export {
